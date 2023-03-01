@@ -14,27 +14,27 @@ public class ReverseStringWithoutSpeciallChar {
 
 	private static void reverseStringWithoutSpecialChar(String inputString) {
 
-		char[] charArr = inputString.toCharArray();
+		char[] charArray = inputString.toCharArray();
 		int left = 0;
-		int right = charArr.length - 1;
+		int right = charArray.length - 1;
 		while (left < right) {
 
-			if (!Character.isLetterOrDigit(charArr[left])) {
+			if (!Character.isLetterOrDigit(charArray[left])) {
 				left++;
 			}
-			if (!Character.isLetterOrDigit(charArr[right])) {
+			if (!Character.isLetterOrDigit(charArray[right])) {
 				right--;
 			} else {
-				char temp = charArr[left];
-				charArr[left] = charArr[right];
-				charArr[right] = temp;
+				char temp = charArray[left];
+				charArray[left] = charArray[right];
+				charArray[right] = temp;
 				left++;
 				right--;
 
 			}
 
 		}
-		System.out.println(charArr);
+		System.out.println(charArray);
 
 	}
 

@@ -2,7 +2,7 @@ package com.testpractice;
 
 import java.util.Scanner;
 
-public class ReverseStringWithoutSplChar {
+public class ReverseStringWithoutSpeciallChar {
 
 	public static void main(String[] args) {
 

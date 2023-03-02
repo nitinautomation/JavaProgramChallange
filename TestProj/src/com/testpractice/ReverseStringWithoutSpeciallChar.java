@@ -3,6 +3,8 @@ package com.testpractice;
 import java.util.Scanner;
 
 public class ReverseStringWithoutSpeciallChar {
+	
+	
 
 	public static void main(String[] args) {
 

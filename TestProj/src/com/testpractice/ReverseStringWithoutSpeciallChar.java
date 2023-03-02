@@ -3,10 +3,12 @@ package com.testpractice;
 import java.util.Scanner;
 
 public class ReverseStringWithoutSpeciallChar {
+	
+	
 
 	public static void main(String[] args) {
 
-		System.out.println("Please Enter a String");
+		System.out.println("Please Enter a String : ");
 		Scanner sc = new Scanner(System.in);
 
 		reverseStringWithoutSpecialChar(sc.nextLine());
